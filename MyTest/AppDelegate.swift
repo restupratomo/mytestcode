@@ -16,7 +16,7 @@ var window: UIWindow?
         // Override point for customization after application launch.
         let windowFrame: CGRect = UIScreen.main.bounds
         self.window = UIWindow(frame: windowFrame)
-        let nav:UINavigationController = UINavigationController(rootViewController: LoginViewController())
+        let nav:UINavigationController = UINavigationController(rootViewController: NewsListViewController())
         self.window?.rootViewController = nav
         self.window?.makeKeyAndVisible()
         
